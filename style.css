@@ -94,6 +94,7 @@
     text-align: center;
     padding: 20px 0px;
 }
+
 /* projects */
 .projects{
     background-color: #d8f1f8;
@@ -147,14 +148,64 @@
    background-color:transparent;
 
 }
+.bottom-1 .img1{
+    width:230px;
+    height:230px;
+    object-fit: contain
+}
 .bottom-1:hover{
     transform: translateX(15px);
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
-    background-color: #747aefe2;
+    background-color: transparent;
+    background-color: white;
 }
 .bottom-1 a,i{
     background-color:transparent;
 }
+
+/* hire reason */
+.hirehead{
+    padding:70px;
+ }
+ .hire-section{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     text-align: justify;
+ }
+ .first{
+     transition: transform 0.3 ease-in;
+ 
+ }
+ .first:hover{
+     transform: translateY(20px);
+ }
+ .first i{
+     font-size: 45px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100px;
+     height: 100px;
+     background-color:black;
+     border-radius:30%;
+     transform: translateY(25%);
+     color:white;
+ }
+ .first-content{
+     height:260px;
+     width:400px;
+     border-radius:3cap;
+     background-color: #bbe7fb;
+ }
+ .first-content p{
+     background-color:transparent; 
+     padding:10px;
+ }
+ .first-content h1{
+     background-color: transparent; 
+     padding:50px 20px 0px 20px;
+ }
 
 /* contact */
 
@@ -162,10 +213,6 @@
     max-width: 900px;
     margin: 40px auto;
     padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
 }
 .contact-section h2{
     text-align: center;
@@ -213,7 +260,7 @@
     display: flex;
     justify-content: space-between;
     list-style:none;
-    padding: 60px 30px;
+    padding: 30px;
 }
 .footer-link{
     display: flex;
@@ -224,3 +271,14 @@
     padding: 20px;
     text-decoration: none;
 }
+.last-footer span{
+    background: linear-gradient(135deg,#6c31e1,#f45cb4);
+    color: transparent;
+    background-clip: text;
+    padding:30px;
+}
+.icons-section i{
+    font-size: 20px;
+    padding:10px;
+}
+
